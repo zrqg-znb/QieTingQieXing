@@ -1,0 +1,70 @@
+/* 重置样式 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 自定义变量 */
+:root {
+  /* 布局相关 */
+  --app-header-height: 60px;
+  --app-footer-height: 60px;
+  --app-sidebar-width: 240px;
+  
+  /* 间距相关 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  /* 圆角相关 */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  
+  /* 阴影相关 */
+  --box-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.12);
+  --box-shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.12);
+  --box-shadow-heavy: 0 4px 16px rgba(0, 0, 0, 0.12);
+  
+  /* 动画相关 */
+  --transition-duration: 0.3s;
+  --transition-timing: ease;
+}
+
+/* 基础样式 */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--el-font-family);
+  font-size: var(--el-font-size-base);
+  color: var(--el-text-color-primary);
+  background-color: var(--el-bg-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 响应式断点 */
+@media screen and (max-width: 768px) {
+  :root {
+    --app-sidebar-width: 0px;
+  }
+}
+
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --box-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.24);
+    --box-shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.24);
+    --box-shadow-heavy: 0 4px 16px rgba(0, 0, 0, 0.24);
+  }
+}
