@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="90" fill="#409EFF" fill-opacity="0.1" stroke="#409EFF" stroke-width="4"/>
+  
+  <!-- 耳机图形 -->
+  <path d="M70 80V120C70 126.627 64.6274 132 58 132H50C43.3726 132 38 126.627 38 120V100C38 93.3726 43.3726 88 50 88H70" stroke="#409EFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M130 80V120C130 126.627 135.373 132 142 132H150C156.627 132 162 126.627 162 120V100C162 93.3726 156.627 88 150 88H130" stroke="#409EFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70 80C70 63.4315 83.4315 50 100 50C116.569 50 130 63.4315 130 80" stroke="#409EFF" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- 波浪线 -->
+  <path d="M60 150C73.3333 140 86.6667 140 100 150C113.333 160 126.667 160 140 150" stroke="#409EFF" stroke-width="6" stroke-linecap="round"/>
+</svg>

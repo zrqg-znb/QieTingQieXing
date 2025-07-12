@@ -1,0 +1,13 @@
+# Django和DRF相关依赖
+Django==5.2.2
+djangorestframework==3.15.2
+django-cors-headers==4.3.0
+djangorestframework-simplejwt==5.4.0
+PyJWT==2.8.0
+
+# 数据库相关
+pymysql==1.1.1
+
+# 其他工具
+python-dotenv==1.0.0
+Pillow==11.3.0
