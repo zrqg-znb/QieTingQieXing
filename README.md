@@ -84,6 +84,20 @@ pip install -r requirements.txt
 
 - 创建MySQL数据库
 - 更新`settings.py`中的数据库配置
+- DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'QieTingQIeXing',
+        'USER': 'root',
+        'PASSWORD': 'Zrqznb020528!',
+        'HOST': 'rm-2ze7td37h05fd80qnpo.mysql.rds.aliyuncs.com',
+        'PORT': '3306',
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
+    }
+}
 
 4. 运行数据库迁移：
 
